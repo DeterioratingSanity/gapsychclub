@@ -94,6 +94,10 @@ body::-webkit-scrollbar {
   width: 25%;
 }
 
+.row{
+  width:75%;
+  margin:auto;
+}
 /* Clear floats after rows */
 .row:after {
   content: "";
