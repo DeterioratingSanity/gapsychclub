@@ -1,0 +1,199 @@
+html{
+  scroll-behavior: smooth;
+  font-family: sans-serif;
+}
+/*body{
+ color:#473B38;
+ background-color: #FDF8F2;
+}*/
+body::-webkit-scrollbar {
+ display: none;
+ margin: 0;
+}
+.sideNavLeft {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  overflow:hidden;
+  padding-top: 60px;
+  transition: 0.5s;
+  white-space:nowrap;
+}
+.sideNavLeft a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: rgb(230,230,230);
+  display: block;
+  transition: 0.3s;
+}
+.sideNavLeft a:hover {
+  color: rgb(255,255,255);
+}
+#main {
+  transition: 0.5s;
+  padding: 20px;
+  padding-top: 0;
+  clear: both;
+}
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+#icon {
+  font-size: 50px;
+  color: rgb(0,0,0);
+  user-select: none;
+  position:sticky;
+  top: 20px;
+  transition: 0.5s;
+  padding: 20px;
+  z-index: 4;
+}
+#keyLeft {
+  display: inline-block;
+  transition: 1.5s;
+  margin-bottom: -40px;
+  position: sticky;
+}
+
+/* primary */
+
+.body{
+  width: 70%;
+  margin: auto;
+  transition: 0.7s;
+}
+#content {
+  margin: auto;
+  width: 76.2%;
+  padding: 10px;
+  border-left: 2px solid #e3e3e3;
+  border-right: 2px solid #e3e3e3;
+}
+* {
+  box-sizing: border-box;
+}
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+.mark{
+  width:45%;
+  margin: auto;
+}
+.section{
+  width:40%;
+  margin: auto;
+}
+span.section{
+  border-bottom: 1px solid black;
+}
+ul{
+  line-height:30px;
+  list-style-type: none;
+  text-align: center;
+  padding: 0;
+}
+#planeName{
+  text-align:center;
+}
+#inputText{
+  box-sizing: border-box;
+  background-image: url('searchicon.png');
+  background-position: 14px 12px;
+  background-repeat: no-repeat;
+  font-size: 16px;
+  padding: 14px 20px 12px 45px;
+  border: none;
+  border-bottom: 1px solid #ddd;
+}
+#myInput:focus {
+  outline: 3px solid #ddd;
+}
+.airList{
+  width:40%;
+}
+.bioSet{
+  border-bottom: 1px solid black;
+  padding-bottom: 1%;
+  width:70%;
+  margin:auto;
+}
+.bioPic{
+  border: 6px ridge grey;
+  margin-right: 2%;
+  float: left;
+}
+.minutes{
+    list-style-type: none;
+    text-align: left;
+    padding: 0;
+}
+.messageForm{
+  width: 65%;
+  margin: auto;
+  transition: 0.7s;
+  font-family: sans-serif;
+  padding:10px;
+  margin:2px;
+}
+form{
+  text-align:center;
+}
+textarea{
+  resize:none;
+}
+button{
+  background-color:white;
+  border: 1px solid grey;
+}
