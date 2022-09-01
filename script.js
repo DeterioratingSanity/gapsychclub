@@ -40,7 +40,7 @@ function proximitySwitchLeft(e){
 document.addEventListener('scroll',headerSwitch);
 function headerSwitch() {
   if(document.body.scrollTop > 60 || document.documentElement.scrollTop > 60) {
-    document.getElementById("title").src = "icon.svg";
+
     document.getElementById("title").style.height = "150px";
     document.getElementById("title").style.width = "150px";
     document.getElementById("title").style.marginTop = "-20px";
@@ -48,8 +48,9 @@ function headerSwitch() {
     document.getElementById("borderOne").style.top = "30px";
     document.getElementById("borderTwo").style.top = "105px";
     document.getElementById("titleBox").style.boxShadow = "0 5px #00B58B";
+    document.getElementById("title").src = "icon.svg";
   } else {
-    document.getElementById("title").src = "icon1.svg";
+
     document.getElementById("title").style.height = "500px";
     document.getElementById("title").style.width = "500px";
     document.getElementById("title").style.marginTop = "-30px";
@@ -57,6 +58,7 @@ function headerSwitch() {
     document.getElementById("borderOne").style.top = "100px";
     document.getElementById("borderTwo").style.top = "365px";
     document.getElementById("titleBox").style.boxShadow = "0 0 red";
+    document.getElementById("title").src = "icon1.svg";
   }
 }
 window.onscroll = function() {scrollBar()};
