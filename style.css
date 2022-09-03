@@ -8,7 +8,7 @@ body{
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover; 
+  background-size: cover;
 }
 /*body{
  color:#473B38;
@@ -25,24 +25,23 @@ body::-webkit-scrollbar {
   z-index: 3;
   top: 0;
   left: 0;
-  background-color: #ada487 ;
+  background-color:#968859 ;
   overflow:hidden;
   padding-top: 60px;
   transition: 0.5s;
   white-space:nowrap;
-  box-shadow: 3px 0 #00B58B;
+  box-shadow: 6px 0 #00B58B;
 }
 .sideNavLeft a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 25px;
-  color: red;
+  color: black;
 
   display: block;
   transition: 0.3s;
 }
 .sideNavLeft a:hover {
-  background-color:red;
   color: #00B58B;
 }
 #main {
@@ -88,7 +87,7 @@ body::-webkit-scrollbar {
 
 }
 #packet{
-background-color:rgba(173, 164, 135,0.65);
+background-color:rgba(173, 164, 135,0.70);
 border-radius:25px;
 }
 #inner{
@@ -193,7 +192,7 @@ ul{
   margin:auto;
 }
 .bioPic{
-  border: 6px ridge grey;
+  border: 6px ridge #00B58B;
   margin-right: 2%;
   float: left;
 }
