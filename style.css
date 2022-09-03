@@ -2,14 +2,21 @@ html{
   scroll-behavior: smooth;
   font-family: sans-serif;
 }
+body{
+  background-image: url("fluidEx.png");
+  min-height: 400px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
 /*body{
  color:#473B38;
  background-color: #FDF8F2;
 }*/
 body::-webkit-scrollbar {
- display: none;
- margin: 0;
-background-color:#FDF8F2;
+  display: none;
+  margin: 0;
 }
 .sideNavLeft {
   height: 100%;
