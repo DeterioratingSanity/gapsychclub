@@ -312,3 +312,27 @@ button:active{
   margin-top: 520px;
   transition: 0.7s;
 }
+#return{
+  text-align:center;
+}
+#returnButton{
+  background-color:white;
+  padding:10px;
+  border-radius:10px;
+  text-align: center;
+  text-decoration: none;
+  color:black;
+  transition:.5s;
+  font-weight:bold;
+}
+#returnButton:hover{
+  background-color:rgb(220,220,220);
+  font-weight:bold;
+  transition:.5s;
+}
+#returnButton:active{
+  background-color:#00B58B;
+  color:white;
+  font-weight:bold;
+  transition:.5s;
+}
